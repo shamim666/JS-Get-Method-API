@@ -1,0 +1,21 @@
+Rule
+-----------
+First you have to check whether Get API response data is in
+object or array format. 
+
+1. if it is in plain object format then it is very easy to get the 
+value from the object by using that particular object property.
+please see kanyeAPI example.
+
+2. if it is in array format that means array of object . then 
+you have to run a for loop for this array to get the elements of this 
+array which is individually an object element . then you have to 
+use that particular object property to get the desiered value . 
+PLease see the jasonplaceholderAPI example.
+
+3. if it is in object that means object of array . and your desired
+value existed in that array then first you have to select that 
+object property which contains the array . then run a for loop for
+this array to get the elements of this array . then use the inner
+object property of that array element to get the desired value.
+PLease see the exxample of randomusersAPI .
