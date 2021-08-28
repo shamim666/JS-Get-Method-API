@@ -10,8 +10,13 @@ const displayFriends = (data) => {
 
 const friends = data.results ; 
 const showFriend = document.getElementById('friends') ; 
-const div = document.createElement('div') ;
+
 for (const friend of friends){
+const div = document.createElement('div') ;
+div.style.border = '2px solid tomato' ;
+div.style.borderRadius = '10px' ;
+div.style.margin = '10px' ;
+div.style.padding = '10px' ;
 
    div.innerHTML = `<h4>name:${friend.name.first}</h4> 
    <p>Email:${friend.email}</p>
