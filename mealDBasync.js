@@ -21,7 +21,7 @@ const mealSearch = async () => {
 
         document.getElementById('errorstring').innerText = '';
 
-        const url = `https://www.themealdb.com/api/json/v91/1/search.php?s=${mealInputValue}`
+        const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${mealInputValue}`
 
         // write await before the fetch and res 
         try {
